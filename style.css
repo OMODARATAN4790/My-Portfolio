@@ -1,0 +1,167 @@
+/* Global Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Header Styling */
+header {
+    background: linear-gradient(90deg, #2193b0 0%, #6dd5ed 100%);
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 1200px;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+/* Navigation Bar */
+nav {
+    background: #333;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    width: 100%;
+    max-width: 1200px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    font-size: 1.1rem;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #6dd5ed;
+    color: #fff;
+}
+
+/* Section Styling */
+section {
+    background: #fff;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    width: 100%;
+    max-width: 1200px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    font-size: 2rem;
+    color: #2193b0;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #c3cfe2;
+    padding-bottom: 0.5rem;
+}
+
+/* About Section */
+#about p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #555;
+}
+
+/* Projects Section */
+#projects ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#projects ul li {
+    margin: 10px 0;
+}
+
+#projects ul li a {
+    text-decoration: none;
+    color: #2193b0;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+#projects ul li a:hover {
+    color: #6dd5ed;
+}
+
+/* Contact Form */
+form {
+    display: grid;
+    gap: 1rem;
+}
+
+form input, form textarea, form button {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    width: 100%;
+}
+
+form input:focus, form textarea:focus {
+    outline: none;
+    border-color: #6dd5ed;
+}
+
+form button {
+    background-color: #2193b0;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #6dd5ed;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #333;
+    color: #fff;
+    width: 100%;
+    max-width: 1200px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 2rem;
+}
